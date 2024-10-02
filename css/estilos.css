@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+header {
+  background-color: #007bff;
+  padding: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #cce5ff;
+}
+#banner-dos-imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#banner-dos-imagenes .imagen {
+  flex: 1;
+  margin: 0 10px;
+}
+
+#banner-dos-imagenes .imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+#banner {
+  position: relative;
+  text-align: right;
+  color: white;
+}
+
+#banner img {
+  width: 70%;
+  height: auto;
+}
+
+.banner-texto {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.banner-texto h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.banner-texto p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  flex: 1;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+}
+.team-logo {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}

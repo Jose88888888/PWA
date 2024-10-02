@@ -1,0 +1,12 @@
+{
+    "short_name":"mi PWA",
+    "name": "mi primera PWA",
+    "start_url": "index.html",
+    "display":"",
+    "orientation":"",
+    "icons": [
+
+    ] 
+
+    
+}
